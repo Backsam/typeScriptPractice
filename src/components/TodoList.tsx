@@ -30,8 +30,6 @@ function TodoList() {
         todoItems: [todoList],
     })
 
-    const onSubmit = (e)
-
     return (
         <div>TodoList</div>
     )
