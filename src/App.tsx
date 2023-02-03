@@ -1,17 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Counter } from './components/Counter';
-import Test from './components/Test';
-import TodoList from './components/TodoList';
+import ComponentPage from './pages/ComponentPage';
+import Main from './pages/Main';
+import "./App.css"
 function App() {
-
   return (
-    <div>
-      <Test name={"Kim"} job={"Developer"}></Test>
-      <Counter></Counter>
-      <TodoList></TodoList>
-    </div>
-
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Main/>}/>
+        <Route path='/component_page' element={<ComponentPage/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
