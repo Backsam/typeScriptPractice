@@ -4,10 +4,6 @@ import styled from 'styled-components';
 
 export default class Main extends Component {
   render() {
-    const onChange = (e:React.ChangeEvent<HTMLInputElement>):void => { 
-        const {name, value} = e.target;
-        console.log(value);
-    }
     return (
       <div className="main">
         <div className='top'>
