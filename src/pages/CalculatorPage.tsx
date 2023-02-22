@@ -112,7 +112,7 @@ export default function Calculator() {
       return;
     }
   }
-  /* -------------- end -----------------*/
+  /* -------------- end -------------------*/
 
 
 
